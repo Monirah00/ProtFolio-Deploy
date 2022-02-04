@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  background: #6d75a1;
+  z-index: 1;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  padding: 1% 5%;
+  transition: 0.5s;
+}
+
+.nav-link{
+  font-size: 18px;
+  font-weight: bolder;
+  color:black;
+  transition: 0.5s;
+}
+.nav-link:hover{
+  transform: scale(1.1);
+}
+header{
+  background-image: url('../src/Images/portfolio-header.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 45vh;
+  background-size: cover;
+  overflow: hidden;
+}
+.ulIcon{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ 
+}
+.Header-Icons{
+ list-style: none; 
+ padding: 20px 20px;
+ margin-top: 50px;
+ font-size: 23px;
+ color: red;
+ transition: 0.5s;
+}
+.Header-Icons:hover{
+ transform: scale(1.1);
+}
+.Header-content{
+  padding: 20px 20px;
+  margin: 20px 20px;
+  
+}
+.About{
+  background: #1f2235;
+  color: #fff;
+}
+.About-content{
+  padding: 10px 10px;
+  margin: 10px 10px;
+  transition: 0.5s;
+}
+.About-content:hover{
+  line-height: 2;
+}
+
+.AboutImg{
+  width: 100%;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  border-radius: 10px;
+}
+
+.Head-section{
+  padding: 10px 10px;
+}
+.Head-section>h4{
+  position: relative;
+  text-align: center;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  color: #f91942;
+}
+.hr{
+  color: #f91942;
+}
+.Head-section>p{
+  font-size: 18px;
+  line-height: 1.8;
+}
+.Services{
+  background-color:#1f2235 ;
+  color: #fff;
+}
+  .Card{
+    text-align: center;
+    padding: 30px 25px;
+    border-radius: 10px;
+    box-shadow:0 0 25px rgba(0, 0,0, 0.07) ;
+    border:1px solid rgb(253, 0, 21) ;
+    margin-bottom: 30px;
+    transition:  all 0.5s ease 0s;
+  
+  }
+  .Card:hover{
+    background-color: #f88499;
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
+    transition:  all 0.5s ease 0s;
+  }
+  span.Sicons{
+    font-size: 40px;
+    margin-bottom: 25px;
+    width: 60px;
+    height: 60px;
+    line-height: 70px;
+    border-radius: 10px;
+    color:rgb(253, 0, 21) ;
+  }
+ 
+.Sicons:hover{
+ color: white;
+  transition: all 0.5s ease 0s;
+  border-radius: 10px;
+
+}
+
+.Features{
+  background-color: #1f2235;
+  color: #fff;
+}
+.Box-1{
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+  transition:  all 0.5s ease 0s;
+  border-radius: 10px;
+  box-shadow:0 0 25px rgba(0, 0,0, 0.07) ;
+  border:1px solid rgb(253, 0, 21) ;
+  padding:20px 20px;
+}
+.Box-2{
+  text-align: center;
+  padding:20px 20px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+  transition:  all 0.5s ease 0s;
+  box-shadow:0 0 25px rgba(0, 0,0, 0.07) ;
+  border:1px solid rgb(253, 0, 21) ;
+  border-radius: 10px;
+}
+.Box-3{
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+  transition:  all 0.5s ease 0s;
+  box-shadow:0 0 25px rgba(0, 0,0, 0.07) ;
+  border:1px solid rgb(253, 0, 21) ;
+  border-radius: 10px;
+  padding:20px 20px;
+}
+.Box-4{
+  text-align: center;
+  padding:20px 20px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+  transition:  all 0.5s ease 0s;
+  box-shadow:0 0 25px rgba(0, 0,0, 0.07) ;
+  border:1px solid rgb(253, 0, 21) ;
+  border-radius: 10px;
+
+}
+
+.Box-1:hover,.Box-2:hover,.Box-3:hover,.Box-4:hover{
+  background-color:#f88499 ;
+}
+.contact{
+  background-color:#1f2235;
+  color: #fff;
+}
+form{
+  padding: 20px 20px;
+  margin: 20px 25px;
+}
+
+.contact-info{
+  padding: 30px 30px;
+  margin-top: 50px;
+}
+
+.footer{
+  background-color: #1f2235;
+  color: #fff;
+}
+.AllfooterIcons{
+  text-align: center;
+ 
+}
+.Ficons{
+  padding: 5px 5px;
+  text-align: center;
+  font-size: 22px;
+  color: #f91942;
+  transition: all ease 0.5s;
+}
+.Ficons:hover{
+  color: #fff;
+  font-size: 25px;
+}
+@media  screen and (max-width:550px) {
+  .AllfooterIcons{
+    margin-bottom: 20px;
+  }
+  
+}
+@media screen and (max-width:980px) {
+  .Header-content{
+    text-align: right;
+    margin-top: 50px;
+  }
+
+ 
+}
